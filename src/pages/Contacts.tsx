@@ -19,7 +19,9 @@ const Contacts = () => {
           <li className='content__list'>
             <h2 className='content__list-title'>Email</h2>
             <p className='content__description'>
-              <a href='email:albert.taygibov@mail.ru'>albert.taygibov@mail.ru</a>
+              <a href='email:albert.taygibov@mail.ru'>
+                albert.taygibov@mail.ru
+              </a>
             </p>
           </li>
         </ul>

@@ -5,23 +5,23 @@ import './style.css'
 import useLocalStorage from '../hooks/useLocalStorage'
 import detectDarkMode from '../../utils/detect-dark-mode'
 
-const BtnDarkMode = () => {
+const BtnDarkMode: React.FC = () => {
   const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode())
 
   const toggleDarkMode = () => {
-    setDarkMode(prev => (prev === 'light' ? 'dark' : 'light'))
+    setDarkMode((prev: string) => (prev === 'light' ? 'dark' : 'light'))
   }
 
-  React.useEffect(() => {
+  React.useEffect((): void => {
     darkMode === 'dark'
       ? document.body.classList.add('dark')
       : document.body.classList.remove('dark')
   }, [darkMode])
 
-  React.useEffect(() => {
+  React.useEffect((): void => {
     window
       .matchMedia('(prefers-color-scheme: dark)')
-      .addEventListener('change', e => {
+      .addEventListener('change', (e: MediaQueryListEvent): void => {
         const colorScheme = e.matches ? 'dark' : 'light'
         setDarkMode(colorScheme)
       })

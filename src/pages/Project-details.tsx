@@ -4,7 +4,7 @@ import BtnGitHub from '../components/btn-github/btn-github'
 import { projectList } from '../utils/constants'
 
 const ProjectDetails = () => {
-  const { id } = useParams()
+  const { id }: any = useParams()
   const { name, skills, image, githubLink } = projectList[id]
   return (
     <main className='content'>

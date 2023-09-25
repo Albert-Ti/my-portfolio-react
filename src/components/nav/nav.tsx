@@ -25,13 +25,20 @@ const Nav = () => {
           <BtnDarkMode />
           <ul className='nav__lists'>
             <li>
-              <NavLink className={({ isActive }) => (isActive ? activeClass : normalClass)} to='/'>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? activeClass : normalClass
+                }
+                to='/'
+              >
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
-                className={({ isActive }) => (isActive ? activeClass : normalClass)}
+                className={({ isActive }) =>
+                  isActive ? activeClass : normalClass
+                }
                 to='/projects'
               >
                 Projects
@@ -39,7 +46,9 @@ const Nav = () => {
             </li>
             <li>
               <NavLink
-                className={({ isActive }) => (isActive ? activeClass : normalClass)}
+                className={({ isActive }) =>
+                  isActive ? activeClass : normalClass
+                }
                 to='/contacts'
               >
                 Contacts

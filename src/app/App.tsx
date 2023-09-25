@@ -9,7 +9,7 @@ import ProjectDetails from '../pages/Project-details'
 import Projects from '../pages/Projects'
 import '../styles/main.css'
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className='App'>
       <Router>
