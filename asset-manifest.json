@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.ae16140d.css",
-    "main.js": "/my-portfolio-react/static/js/main.156b062e.js",
-    "static/media/04-big.jpg": "/my-portfolio-react/static/media/04-big.9dc8caf822c4a4116af4.jpg",
-    "static/media/05-big.jpg": "/my-portfolio-react/static/media/05-big.f315645c87f1dfe5c2c6.jpg",
+    "main.js": "/my-portfolio-react/static/js/main.f8f238ba.js",
     "static/media/project-react-pizza.png": "/my-portfolio-react/static/media/project-react-pizza.0e2586349695ba1efdd7.png",
     "static/media/project-mesto.png": "/my-portfolio-react/static/media/project-mesto.79b588501e6179f65fde.png",
     "static/media/06-big.jpg": "/my-portfolio-react/static/media/06-big.51b90ae43fdfcf0ab077.jpg",
+    "static/media/project-procharity.png": "/my-portfolio-react/static/media/project-procharity.dfaf3f491f7865a0b458.png",
     "static/media/project_react-stellar-burger.png": "/my-portfolio-react/static/media/project_react-stellar-burger.cce1b3a160feff6ea4c9.png",
+    "static/media/project-educouch.png": "/my-portfolio-react/static/media/project-educouch.0bb48872463ef9fc174b.png",
     "static/media/header-bg.png": "/my-portfolio-react/static/media/header-bg.984b84e6dcae1bd08165.png",
     "static/media/sun.svg": "/my-portfolio-react/static/media/sun.51393a375a81e44f27f1e33d713ca0ae.svg",
     "static/media/Moon.svg": "/my-portfolio-react/static/media/Moon.a84eb240a8739f0ef02594df4c131706.svg",
@@ -19,10 +19,10 @@
     "static/media/linkedIn.svg": "/my-portfolio-react/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/my-portfolio-react/index.html",
     "main.ae16140d.css.map": "/my-portfolio-react/static/css/main.ae16140d.css.map",
-    "main.156b062e.js.map": "/my-portfolio-react/static/js/main.156b062e.js.map"
+    "main.f8f238ba.js.map": "/my-portfolio-react/static/js/main.f8f238ba.js.map"
   },
   "entrypoints": [
     "static/css/main.ae16140d.css",
-    "static/js/main.156b062e.js"
+    "static/js/main.f8f238ba.js"
   ]
 }
