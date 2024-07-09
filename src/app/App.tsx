@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <Router>
         <Nav />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path={'/my-portfolio-react' || '/'} element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/project-details/:id' element={<ProjectDetails />} />
           <Route path='/contacts' element={<Contacts />} />
