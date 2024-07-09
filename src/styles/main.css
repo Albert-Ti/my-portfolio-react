@@ -106,7 +106,13 @@
   font-weight: 700;
 }
 
-.project-details__btn {
+.project-details__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.project-details__button {
   display: flex;
   column-gap: 10px;
   background-color: var(--white);

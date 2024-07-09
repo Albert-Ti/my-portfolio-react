@@ -12,13 +12,14 @@ const Home = () => {
             <li className='content__list'>
               <h2 className='content__list-title'>Frontend</h2>
               <p className='content__description'>
-                JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, NPM, BootStrap,
-                MaterialUI, Yarn, TailwindCSS, StyledComponents
+                JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, SASS, OOP
               </p>
             </li>
             <li className='content__list'>
               <h2 className='content__list-title'>Backend</h2>
-              <p className='content__description'>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+              <p className='content__description'>
+                NodeJS, ExpressJS, NestJS, Redis, Postgresql, MongoDB.
+              </p>
             </li>
           </ul>
         </div>

@@ -8,14 +8,14 @@ const Header = () => {
         <h1 className='header__title'>
           <strong>
             Hi, my name is <span>Albert</span>
-          </strong>
-          a frontend developer
+          </strong>{' '}
+          a Fullstack developer
         </h1>
         <p className='header__subtitle'>
           with passion for learning and creating.
         </p>
       </div>
-      <a href='#!' className='header__btn'>
+      <a href='./Taygibov-Albert-CV.pdf' className='header__btn' download>
         Download CV
       </a>
     </header>

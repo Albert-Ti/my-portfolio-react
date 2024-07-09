@@ -1,11 +1,14 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import BtnGitHub from '../components/btn-github/btn-github'
+import Button from '../components/button/btn-github'
 import { projectList } from '../utils/constants'
+import gitHubIcon from '../image/icons/gitHub-black.svg'
+import siteLinkIcon from '../image/icons/link-circle.svg'
 
 const ProjectDetails = () => {
-  const { id }: any = useParams()
-  const { name, skills, image, githubLink } = projectList[id]
+  const { id } = useParams()
+  const { name, skills, image, githubLink, siteLink } =
+    projectList[id ? +id : 0]
   return (
     <main className='content'>
       <div className='container'>
@@ -16,7 +19,14 @@ const ProjectDetails = () => {
           <div className='project-details__description'>
             <p>Skills: {skills}</p>
           </div>
-          {githubLink && <BtnGitHub link={githubLink} />}
+          <div className='project-details__buttons'>
+            {githubLink && (
+              <Button icon={gitHubIcon} link={githubLink} text='GitHub' />
+            )}
+            {siteLink && (
+              <Button icon={siteLinkIcon} link={siteLink} text='site link' />
+            )}
+          </div>
         </div>
       </div>
     </main>

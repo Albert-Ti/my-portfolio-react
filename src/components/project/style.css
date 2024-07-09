@@ -1,15 +1,16 @@
 .project {
-  max-width: 370px;
+  width: 370px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   background: var(--project-card-bg);
 }
 
 .project img {
+  width: 100%;
   object-fit: cover;
+  object-position: top;
 
   border-radius: 10px;
-  max-width: 350px;
   height: 263px;
 }
 
