@@ -1,9 +1,8 @@
 import React from 'react'
 import iconVk from '../..//image/icons/vk.svg'
 import iconGitHub from '../..//image/icons/gitHub.svg'
-import iconInstagram from '../..//image/icons/instagram.svg'
 import iconLinkedIn from '../..//image/icons/linkedIn.svg'
-import iconTwitter from '../..//image/icons/twitter.svg'
+import iconTelegram from '../..//image/icons/telegram-icon.svg'
 
 import './style.css'
 
@@ -17,17 +16,20 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href='#!'>
-            <img src={iconInstagram} alt='icon-instagram' />
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://t.me/albert_taygibov'
+          >
+            <img src={iconTelegram} alt='icon-telegram' />
           </a>
         </li>
         <li>
-          <a href='#!'>
-            <img src={iconTwitter} alt='icon-twitter' />
-          </a>
-        </li>
-        <li>
-          <a target='_blank' rel='noreferrer' href='https://github.com/Albert-Ti'>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://github.com/Albert-Ti'
+          >
             <img src={iconGitHub} alt='icon-gitHub' />
           </a>
         </li>
