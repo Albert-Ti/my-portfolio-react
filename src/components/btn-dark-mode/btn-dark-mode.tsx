@@ -12,16 +12,16 @@ const BtnDarkMode: React.FC = () => {
     setDarkMode((prev: string) => (prev === 'light' ? 'dark' : 'light'))
   }
 
-  React.useEffect((): void => {
+  React.useEffect(() => {
     darkMode === 'dark'
       ? document.body.classList.add('dark')
       : document.body.classList.remove('dark')
   }, [darkMode])
 
-  React.useEffect((): void => {
+  React.useEffect(() => {
     window
       .matchMedia('(prefers-color-scheme: dark)')
-      .addEventListener('change', (e: MediaQueryListEvent): void => {
+      .addEventListener('change', (e: MediaQueryListEvent) => {
         const colorScheme = e.matches ? 'dark' : 'light'
         setDarkMode(colorScheme)
       })

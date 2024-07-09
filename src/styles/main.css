@@ -11,12 +11,13 @@
   --black: #171718;
   --balck-border: #26292d;
   --white: #fff;
-  --purple: goldenrod;
+  --purple: purple;
+  --gold: goldenrod;
 
   --dark-bg: var(--black);
   --dark-border: var(--balck-border);
   --header-text: var(--white);
-  --accent: var(--purple);
+  --accent: var(--gold);
 
   /* light mode */
   --page-bg: var(--white);
@@ -178,7 +179,8 @@
   }
   .header {
     min-height: unset;
-    background: url('../image/header-bg.png') center/400px no-repeat var(--black);
+    background: url('../image/header-bg.png') center/400px no-repeat
+      var(--black);
   }
   .header__title {
     font-size: 20px;
