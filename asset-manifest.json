@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.b2af3408.css",
-    "main.js": "/my-portfolio-react/static/js/main.7bd14ce2.js",
+    "main.js": "/my-portfolio-react/static/js/main.f2566947.js",
     "static/media/project-react-pizza.png": "/my-portfolio-react/static/media/project-react-pizza.0e2586349695ba1efdd7.png",
     "static/media/project-mesto.png": "/my-portfolio-react/static/media/project-mesto.79b588501e6179f65fde.png",
     "static/media/06-big.jpg": "/my-portfolio-react/static/media/06-big.51b90ae43fdfcf0ab077.jpg",
@@ -13,16 +13,16 @@
     "static/media/Moon.svg": "/my-portfolio-react/static/media/Moon.a84eb240a8739f0ef02594df4c131706.svg",
     "static/media/gitHub.svg": "/my-portfolio-react/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
     "static/media/gitHub-black.svg": "/my-portfolio-react/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
-    "static/media/telegram-icon.svg": "/my-portfolio-react/static/media/telegram-icon.17f3e4b9459c9ea0ba2532a4992a7dff.svg",
     "static/media/link-circle.svg": "/my-portfolio-react/static/media/link-circle.4a7fe8b0c42619da76b8cf9f33404605.svg",
     "static/media/vk.svg": "/my-portfolio-react/static/media/vk.ffb489eeac4ab842395ffb315910ea7f.svg",
-    "static/media/linkedIn.svg": "/my-portfolio-react/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
+    "static/media/icon-hh.svg": "/my-portfolio-react/static/media/icon-hh.7e6b0fdea58e1717464e7e77f257c9c3.svg",
+    "static/media/telegram-blue.svg": "/my-portfolio-react/static/media/telegram-blue.a066f4c8c873847a77005cd4f07e8a51.svg",
     "index.html": "/my-portfolio-react/index.html",
     "main.b2af3408.css.map": "/my-portfolio-react/static/css/main.b2af3408.css.map",
-    "main.7bd14ce2.js.map": "/my-portfolio-react/static/js/main.7bd14ce2.js.map"
+    "main.f2566947.js.map": "/my-portfolio-react/static/js/main.f2566947.js.map"
   },
   "entrypoints": [
     "static/css/main.b2af3408.css",
-    "static/js/main.7bd14ce2.js"
+    "static/js/main.f2566947.js"
   ]
 }
