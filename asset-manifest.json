@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.b2af3408.css",
-    "main.js": "/my-portfolio-react/static/js/main.f2566947.js",
+    "main.js": "/my-portfolio-react/static/js/main.6357c2cc.js",
+    "static/media/replicant.png": "/my-portfolio-react/static/media/replicant.faf15d1e20dd5b87a16a.png",
     "static/media/project-react-pizza.png": "/my-portfolio-react/static/media/project-react-pizza.0e2586349695ba1efdd7.png",
     "static/media/project-mesto.png": "/my-portfolio-react/static/media/project-mesto.79b588501e6179f65fde.png",
-    "static/media/06-big.jpg": "/my-portfolio-react/static/media/06-big.51b90ae43fdfcf0ab077.jpg",
+    "static/media/project-educouch.png": "/my-portfolio-react/static/media/project-educouch.e1df15c447d0682ddf36.png",
     "static/media/project-procharity.png": "/my-portfolio-react/static/media/project-procharity.dfaf3f491f7865a0b458.png",
     "static/media/project_react-stellar-burger.png": "/my-portfolio-react/static/media/project_react-stellar-burger.cce1b3a160feff6ea4c9.png",
-    "static/media/project-educouch.png": "/my-portfolio-react/static/media/project-educouch.0bb48872463ef9fc174b.png",
     "static/media/header-bg.png": "/my-portfolio-react/static/media/header-bg.984b84e6dcae1bd08165.png",
     "static/media/sun.svg": "/my-portfolio-react/static/media/sun.51393a375a81e44f27f1e33d713ca0ae.svg",
-    "static/media/Moon.svg": "/my-portfolio-react/static/media/Moon.a84eb240a8739f0ef02594df4c131706.svg",
-    "static/media/gitHub.svg": "/my-portfolio-react/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/moon.svg": "/my-portfolio-react/static/media/moon.a84eb240a8739f0ef02594df4c131706.svg",
+    "static/media/gitHub-white.svg": "/my-portfolio-react/static/media/gitHub-white.db1e3cfa3aa61658d837d82e113dc1fe.svg",
     "static/media/gitHub-black.svg": "/my-portfolio-react/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
     "static/media/link-circle.svg": "/my-portfolio-react/static/media/link-circle.4a7fe8b0c42619da76b8cf9f33404605.svg",
     "static/media/vk.svg": "/my-portfolio-react/static/media/vk.ffb489eeac4ab842395ffb315910ea7f.svg",
-    "static/media/icon-hh.svg": "/my-portfolio-react/static/media/icon-hh.7e6b0fdea58e1717464e7e77f257c9c3.svg",
-    "static/media/telegram-blue.svg": "/my-portfolio-react/static/media/telegram-blue.a066f4c8c873847a77005cd4f07e8a51.svg",
+    "static/media/hh.svg": "/my-portfolio-react/static/media/hh.7e6b0fdea58e1717464e7e77f257c9c3.svg",
+    "static/media/telegram.svg": "/my-portfolio-react/static/media/telegram.a066f4c8c873847a77005cd4f07e8a51.svg",
     "index.html": "/my-portfolio-react/index.html",
     "main.b2af3408.css.map": "/my-portfolio-react/static/css/main.b2af3408.css.map",
-    "main.f2566947.js.map": "/my-portfolio-react/static/js/main.f2566947.js.map"
+    "main.6357c2cc.js.map": "/my-portfolio-react/static/js/main.6357c2cc.js.map"
   },
   "entrypoints": [
     "static/css/main.b2af3408.css",
-    "static/js/main.f2566947.js"
+    "static/js/main.6357c2cc.js"
   ]
 }
