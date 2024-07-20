@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.b2af3408.css",
-    "main.js": "/my-portfolio-react/static/js/main.6357c2cc.js",
-    "static/media/replicant.png": "/my-portfolio-react/static/media/replicant.faf15d1e20dd5b87a16a.png",
+    "main.js": "/my-portfolio-react/static/js/main.f79abe20.js",
+    "static/media/replicant.png": "/my-portfolio-react/static/media/replicant.e282a3676b0b3d1f6bd7.png",
     "static/media/project-react-pizza.png": "/my-portfolio-react/static/media/project-react-pizza.0e2586349695ba1efdd7.png",
     "static/media/project-mesto.png": "/my-portfolio-react/static/media/project-mesto.79b588501e6179f65fde.png",
     "static/media/project-educouch.png": "/my-portfolio-react/static/media/project-educouch.e1df15c447d0682ddf36.png",
@@ -19,10 +19,10 @@
     "static/media/telegram.svg": "/my-portfolio-react/static/media/telegram.a066f4c8c873847a77005cd4f07e8a51.svg",
     "index.html": "/my-portfolio-react/index.html",
     "main.b2af3408.css.map": "/my-portfolio-react/static/css/main.b2af3408.css.map",
-    "main.6357c2cc.js.map": "/my-portfolio-react/static/js/main.6357c2cc.js.map"
+    "main.f79abe20.js.map": "/my-portfolio-react/static/js/main.f79abe20.js.map"
   },
   "entrypoints": [
     "static/css/main.b2af3408.css",
-    "static/js/main.6357c2cc.js"
+    "static/js/main.f79abe20.js"
   ]
 }
