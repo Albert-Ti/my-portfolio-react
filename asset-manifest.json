@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.b2af3408.css",
-    "main.js": "/my-portfolio-react/static/js/main.f79abe20.js",
+    "main.js": "/my-portfolio-react/static/js/main.efce4383.js",
     "static/media/replicant.png": "/my-portfolio-react/static/media/replicant.e282a3676b0b3d1f6bd7.png",
     "static/media/project-react-pizza.png": "/my-portfolio-react/static/media/project-react-pizza.0e2586349695ba1efdd7.png",
     "static/media/project-mesto.png": "/my-portfolio-react/static/media/project-mesto.79b588501e6179f65fde.png",
     "static/media/project-educouch.png": "/my-portfolio-react/static/media/project-educouch.e1df15c447d0682ddf36.png",
     "static/media/project-procharity.png": "/my-portfolio-react/static/media/project-procharity.dfaf3f491f7865a0b458.png",
     "static/media/project_react-stellar-burger.png": "/my-portfolio-react/static/media/project_react-stellar-burger.cce1b3a160feff6ea4c9.png",
+    "static/media/maze-chat.png": "/my-portfolio-react/static/media/maze-chat.62c0b615d7a5ef9169c7.png",
     "static/media/header-bg.png": "/my-portfolio-react/static/media/header-bg.984b84e6dcae1bd08165.png",
     "static/media/sun.svg": "/my-portfolio-react/static/media/sun.51393a375a81e44f27f1e33d713ca0ae.svg",
     "static/media/moon.svg": "/my-portfolio-react/static/media/moon.a84eb240a8739f0ef02594df4c131706.svg",
@@ -19,10 +20,10 @@
     "static/media/telegram.svg": "/my-portfolio-react/static/media/telegram.a066f4c8c873847a77005cd4f07e8a51.svg",
     "index.html": "/my-portfolio-react/index.html",
     "main.b2af3408.css.map": "/my-portfolio-react/static/css/main.b2af3408.css.map",
-    "main.f79abe20.js.map": "/my-portfolio-react/static/js/main.f79abe20.js.map"
+    "main.efce4383.js.map": "/my-portfolio-react/static/js/main.efce4383.js.map"
   },
   "entrypoints": [
     "static/css/main.b2af3408.css",
-    "static/js/main.f79abe20.js"
+    "static/js/main.efce4383.js"
   ]
 }
