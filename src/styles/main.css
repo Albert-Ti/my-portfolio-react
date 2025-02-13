@@ -6,26 +6,26 @@
   font-family: 'Poppins', Arial, sans-serif;
 */
 
-/* :root? Означает что будем прописывать переменные на уровне всего документа */
 :root {
   --black: #171718;
-  --balck-border: #26292d;
+  --black-border: #26292d;
   --white: #fff;
   --purple: purple;
   --gold: goldenrod;
 
   --dark-bg: var(--black);
-  --dark-border: var(--balck-border);
+  --dark-border: var(--black);
   --header-text: var(--white);
   --accent: var(--gold);
 
   /* light mode */
   --page-bg: var(--white);
   --text-color: var(--black);
-  --title: var(--accent);
+  --title: var(--black-border);
 
   --project-card-bg: var(--white);
   --project-card-title: var(--black);
+  --description-title: var(--black);
 
   --box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
 }
@@ -37,6 +37,8 @@
 
   --project-card-bg: var(--black);
   --project-card-title: var(--white);
+  --description-title: var(--white);
+
   --box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -102,8 +104,22 @@
 
 .project-details__description {
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.project-details__description h4 {
+  color: var(--description-title);
+}
+
+.project-details__description p {
+  font-weight: 400;
+  text-align: center;
 }
 
 .project-details__buttons {
@@ -112,12 +128,16 @@
   gap: 15px;
 }
 
-.project-details__button {
+.link-btn {
+  width: 132px;
+  height: 48px;
+  margin: auto;
+  padding: 12px 20px;
+
   display: flex;
+  justify-content: center;
   column-gap: 10px;
   background-color: var(--white);
-  height: 48px;
-  padding: 12px 20px;
 
   border-radius: 5px;
   border: 1px solid #000;
@@ -130,11 +150,11 @@
   transition: opacity 0.2s ease-in;
 }
 
-.project-details__btn:hover {
+.link-btn:hover {
   opacity: 0.8;
 }
 
-.project-details__btn:active {
+.link-btn:active {
   position: relative;
   top: 1px;
 }
@@ -181,11 +201,11 @@
     order: 0;
   }
   .nav__logo {
-    font-size: 25px;
+    font-size: 22px;
   }
   .header {
     min-height: unset;
-    background: url('../image/header-bg.png') center/400px no-repeat
+    background: url('../assets/header-bg.png') center/400px no-repeat
       var(--black);
   }
   .header__title {

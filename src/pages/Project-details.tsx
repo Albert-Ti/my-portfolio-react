@@ -1,30 +1,48 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import Button from '../components/button/btn-github'
-import { projectList } from '../utils/constants'
-import gitHubIcon from '../image/icons/gitHub-black.svg'
-import siteLinkIcon from '../image/icons/link-circle.svg'
+import LinkBtn from '../components/Link-btn/LinkBtn'
+import gitHubIcon from '../assets/icons/gitHub-black.svg'
+import siteLinkIcon from '../assets/icons/link-circle.svg'
+import { projectList } from '../projectsData'
 
 const ProjectDetails = () => {
   const { id } = useParams()
-  const { name, skills, image, githubLink, siteLink } =
-    projectList[id ? +id : 0]
+  const project = projectList[id ? +id : 0]
+
   return (
     <main className='content'>
       <div className='container'>
-        <h1 className='content__title'>{name}</h1>
+        <h1 className='content__title'>{project.name}</h1>
         <div className='project-details'>
-          <img src={image} alt='project' className='project-details__image' />
+          <img
+            src={project.image[0]}
+            alt='project'
+            className='project-details__image'
+          />
 
           <div className='project-details__description'>
-            <p>Skills: {skills}</p>
+            <h4>Skills</h4>
+            <p>
+              {project.skills} {project.adaptive && ', Adaptive layout'}
+            </p>
+            <h4>Status</h4>
+            <p>{project.status}</p>
           </div>
+
           <div className='project-details__buttons'>
-            {githubLink && (
-              <Button icon={gitHubIcon} link={githubLink} text='GitHub' />
+            {project.githubLink && (
+              <LinkBtn
+                icon={gitHubIcon}
+                link={project.githubLink}
+                text='GitHub'
+              />
             )}
-            {siteLink && (
-              <Button icon={siteLinkIcon} link={siteLink} text='site link' />
+            {project.siteLink && (
+              <LinkBtn
+                icon={siteLinkIcon}
+                link={project.siteLink}
+                text='Site'
+              />
             )}
           </div>
         </div>

@@ -8,6 +8,7 @@ import Home from '../pages/Home'
 import ProjectDetails from '../pages/Project-details'
 import Projects from '../pages/Projects'
 import '../styles/main.css'
+import NotFound from '../pages/NotFound'
 
 const App: React.FC = () => {
   return (
@@ -16,9 +17,11 @@ const App: React.FC = () => {
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/my-portfolio-react' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/project-details/:id' element={<ProjectDetails />} />
           <Route path='/contacts' element={<Contacts />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>

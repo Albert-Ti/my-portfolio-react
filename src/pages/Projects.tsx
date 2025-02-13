@@ -1,10 +1,10 @@
 import React from 'react'
 import Project from '../components/project/project'
-import { projectList } from '../utils/constants'
+import { projectList } from '../projectsData'
 
-type ProgectsList = {
+type ProjectList = {
   name: string
-  image: string
+  image: string[]
   skills?: string
   githubLink?: string
 }
@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
       <div className='container'>
         <h2 className='content__title'>Projects</h2>
         <ul className='projects'>
-          {projectList.map((item: ProgectsList, i: number) => (
+          {projectList.map((item: ProjectList, i: number) => (
             <Project key={i} {...item} id={i} />
           ))}
         </ul>

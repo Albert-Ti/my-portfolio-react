@@ -1,6 +1,6 @@
 import React from 'react'
-import sun from './sun.svg'
-import mun from './Moon.svg'
+import sun from '../../assets/icons/sun.svg'
+import mun from '../../assets/icons/moon.svg'
 import './style.css'
 import useLocalStorage from '../hooks/useLocalStorage'
 import detectDarkMode from '../../utils/detect-dark-mode'

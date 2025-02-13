@@ -20,7 +20,7 @@ const Nav = () => {
             <strong>
               Albert<span>Ti</span>
             </strong>{' '}
-            Web developer
+            Fullstack developer
           </NavLink>
           <BtnDarkMode />
           <ul className='nav__lists'>

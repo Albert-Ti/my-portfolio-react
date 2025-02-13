@@ -4,7 +4,7 @@ import './style.css'
 
 type ProjectProps = {
   name: string
-  image: string
+  image: string[]
   id: number
 }
 
@@ -12,7 +12,7 @@ const Project: React.FC<ProjectProps> = ({ name, image, id }) => {
   return (
     <li className='project'>
       <NavLink to={`/project-details/${id}`}>
-        <img src={image} alt='project-burger' />
+        <img src={image[0]} alt={name} />
         <h3 className='project__title'>{name}</h3>
       </NavLink>
     </li>

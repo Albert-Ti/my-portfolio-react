@@ -9,7 +9,7 @@
   align-items: center;
   text-align: center;
 
-  background: url('../../image/header-bg.png') center no-repeat var(--black);
+  background: url('../../assets/header-bg.png') center no-repeat var(--black);
 }
 
 .header__wrapper {

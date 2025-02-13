@@ -15,7 +15,11 @@ const Header = () => {
           with passion for learning and creating.
         </p>
       </div>
-      <a href='./Taygibov-Albert-CV.pdf' className='header__btn' download>
+      <a
+        href='https://hh.ru/resume_converter/Taygibov%20Albert.pdf?hash=7393af3fff0d3696330039ed1f684471623248&type=pdf&hhtmSource=resume&hhtmFrom=resume_list'
+        className='header__btn'
+        download
+      >
         Download CV
       </a>
     </header>
